@@ -17,6 +17,9 @@ const viewerId = "mirador-home-viewer";
 
 const config = {
   id: viewerId,
+  osdConfig: {
+    crossOriginPolicy: "Anonymous",
+  },
   windows: [
     {
       manifestId: "https://media.nga.gov/public/manifests/nga_highlights.json",
