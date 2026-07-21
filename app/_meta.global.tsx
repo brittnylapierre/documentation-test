@@ -18,7 +18,7 @@ const meta: MetaRecord = {
   },
   "install-config": {
     type: "page",
-    title: "Install & Config",
+    title: "Install & Config Guide",
   },
   demo: {
     title: "Live Demo",
