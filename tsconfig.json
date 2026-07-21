@@ -23,15 +23,6 @@
       }
     ],
     "module": "esnext",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": [
-        "./*"
-      ],
-      "react": [
-        "./node_modules/@types/react"
-      ]
-    },
     "strictNullChecks": true
   },
   "include": [

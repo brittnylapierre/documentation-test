@@ -126,6 +126,18 @@ footer a:hover {
   margin: 1rem 0 0;
 }
 
+.mirador-lede a {
+  color: var(--mirador-secondary) !important;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.mirador-lede a:hover {
+  color: var(--mirador-secondary-hover) !important;
+  text-decoration-thickness: 2px;
+}
+
 .mirador-actions {
   display: flex;
   flex-wrap: wrap;
