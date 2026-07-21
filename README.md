@@ -1,33 +1,29 @@
-# Mirador User Guide
+# Mirador Guide
 
-A Next.js and Outstatic documentation app for the Mirador user guide.
+A Nextra guide website for Mirador with two top-level sections:
+
+- User Guide
+- Install & Config Guide
+
+Built from:
+
+- https://projectmirador.org/
+- https://github.com/projectmirador/mirador/wiki
+- https://projectmirador.org/demo/
 
 ## Local Development
 
-Use Node 24 or newer:
-
 ```bash
-nvm use
 npm install
 npm run dev
 ```
 
-Open `http://localhost:3000` for the public guide and `http://localhost:3000/outstatic` for the Outstatic CMS.
+The dev server runs on http://localhost:3003.
 
-## Checks
+## Build
 
 ```bash
-npm run lint
-npm run typecheck
 npm run build
 ```
 
-## Netlify
-
-The repo includes `netlify.toml` with:
-
-- build command: `npm run build`
-- publish directory: `.next`
-- Node major: `24`
-
-Netlify automatically applies its current OpenNext adapter for supported Next.js projects.
+The build also generates the Pagefind search index in `public/_pagefind`.
