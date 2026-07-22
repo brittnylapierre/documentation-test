@@ -1,4 +1,4 @@
-# Mirador Guide
+# Mirador Documentation
 
 A Nextra guide website for Mirador with two top-level sections:
 

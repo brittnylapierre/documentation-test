@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Mirador Guide",
+  title: "Mirador Documentation",
   description: "A practical guide to using, installing, and configuring Mirador.",
 };
 
@@ -14,7 +14,7 @@ const navbar = (
     logo={
       <span className="mirador-logo">
         <img src="/mirador-logo.svg" alt="" width="30" height="30" />
-        <span>Mirador Guide</span>
+        <span>Mirador Documentation</span>
       </span>
     }
   />
